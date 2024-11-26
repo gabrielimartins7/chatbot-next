@@ -9,9 +9,10 @@ import { Loader } from '../Loader';
 import { RetryButton } from '../RetryButton';
 import styles from './container.module.css';
 
-import { useChat } from 'ai/react';
+import { useChat } from 'ai/react'
 
 export const ChatContainer = () => {
+
     const { messages, input, handleInputChange, handleSubmit } = useChat()
 
     return (
@@ -22,8 +23,8 @@ export const ChatContainer = () => {
                 {messages.map((msg) => (
                     <ChatBubble
                         key={msg.id}
-                        message={msg.message}
-                        isUser={msg.isUser} 
+                        message={msg.content}
+                        isUser={msg.role == 'user'} 
                         onRemove={() => console.log('remove message', msg.id)}
                     />
                 ))}

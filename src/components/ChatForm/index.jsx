@@ -3,7 +3,7 @@
 import styles from './chat.module.css'
 import { IconSend } from "../Icons"
 
-export const ChatForm = ({ input, handleInputChange, handleSubmit}) => {
+export const ChatForm = ({ input, handleInputChange, handleSubmit }) => {
     return (<form className={styles.form} onSubmit={handleSubmit}>
         <input 
             className={styles.input} 

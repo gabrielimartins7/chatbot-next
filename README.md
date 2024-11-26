@@ -39,7 +39,3 @@ Siga os passos abaixo para rodar o projeto localmente:
 4. Execute o comando `npm install` para instalar as dependências.
 5. Inicie o servidor de desenvolvimento com `npm run dev`.
 6. Acesse `http://localhost:3000` no seu navegador para visualizar o projeto.
-
-## 📚 Mais Informações
-
-Se você deseja mergulhar fundo no desenvolvimento de assistentes inteligentes com IA, SSR e integração de APIs, [acesse o curso]() e acompanhe todo o processo de desenvolvimento do Vidy!
